@@ -23,14 +23,14 @@ input[type="text"] {
   width: 200px;
 }
 button {
-    background-color: palevioletred;
-    padding: 10px 20px;
-    font-size: 20px;
-    border-radius: 8px;
-    color: white;
-     cursor: pointer;
- transition: background-color 0.3s ease;
- border: none;
+background-color: palevioletred;
+padding: 10px 20px;
+font-size: 20px;
+border-radius: 8px;
+color: white;
+cursor: pointer;
+transition: background-color 0.3s ease;
+border: none;
 
 }
 h1 {

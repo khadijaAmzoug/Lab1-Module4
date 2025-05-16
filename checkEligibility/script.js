@@ -21,20 +21,15 @@ else if (age > 18 && !isEmployed) {
     }
   }
 
-  // 2. دالة لجلب القيم من الواجهة وربطها مع checkEligibility
   function handleCheck() {
     const ageValue = document.getElementById("age").value;
     const employmentValue = document.getElementById("employment").value;
 
-    // نحول العمر إلى رقم
     const age = parseInt(ageValue);
 
-    // نحول yes/no إلى true/false
     const isEmployed = employmentValue === "yes";
 
-    // نستدعي الدالة الرئيسية
     const result = checkEligibility(age, isEmployed);
 
-    // نعرض النتيجة للمستخدم
     document.getElementById("result").textContent = result;
   }
